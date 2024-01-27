@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fraction.css">
+    <script src="Fraction.js" defer></script>
+    <!-- Title Screen -->
+    <title>Fraction Operations Practice Trivia!</title>
+</head>
+<!-- Body Container -->
+<body>
+    <div class="container">
+        <!-- Start Button -->
+        <div id="startGame">
+                    <!-- Welcome MSG -->
+            <h1>Welcome to Noah's Fraction Quiz!</h1>
+            <p>Click below when you are ready to begin</p>
+            <p>Good Luck!</p>
+                    <!-- strtBtn-->
+            <a id="startBtn">I'M READY!</a>
+        </div>
+        <div id="inGame">
+            <div class="top-section">
+                        <!-- In-Game Title -->
+                <h1>Addition & Subtraction with Fractions</h1>
+                <div class="game-data">
+                    <p>Question :
+                        <span id="qNum">0</span>/10
+                    </p>
+                    <p>Score: <span id="score">0</span></p>
+                </div>
+                <div id="timer">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="question-card">
+                <h1 id="question">This is question</h1>
+            </div>
+            <h3>Click your answer below: </h3>
+                    <!-- answer options -->
+            <div class="answer-card">
+                <button>Option A</button>
+                <button>Option B</button>
+                <button>Option C</button>
+                <button>Option D</button>
+            </div>
+        </div>
+    <div id="endGame">
+                <!-- end-screen-->
+        <h1>This attempt : <span id="final-score">0</span> / 10</h1>
+    <p id="message"></p>
+            <!-- restart button -->
+    <a id="restartBtn">PLAY AGAIN</a>
+</div>
+    </div>
+</body>
+</html>
